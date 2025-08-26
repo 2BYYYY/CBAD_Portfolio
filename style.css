@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#sidebar {
+    min-height: 100vh;
+}
+
+#sidebar h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
