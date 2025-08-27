@@ -14,7 +14,7 @@ $pageTitle = "About Me";
     <div class="row">
         <?php include('menu.php') ?>
 
-        <div class="col-sm-9 p-4">
+        <div class="col-md-9 p-4">
             
             <ul>
                 <li>Github</li>

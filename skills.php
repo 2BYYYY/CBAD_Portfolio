@@ -15,7 +15,7 @@ $headerTitle = "Who Am I?";
     <div class="row">
         <?php include('menu.php') ?>
 
-        <div class="col-sm-9 p-4">
+        <div class="col-md-9 p-4">
             <h1><?php echo $headerTitle; ?></h1>
             <p>I am a dedicated student with interests in web development, data engineering, and AI. I enjoy solving problems and learning new technologies.</p>
             <img src="https://via.placeholder.com/400" class="img-thumbnail" alt="About Me Image">

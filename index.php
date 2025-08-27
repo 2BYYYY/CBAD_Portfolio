@@ -15,7 +15,7 @@ $headerTitle = "Welcome to My Portfolio";
     <div class="row">
         <?php include('menu.php') ?>
 
-        <div class="col-sm-9 p-4">
+        <div class="col-md-9 p-4">
             <h1><?php echo $headerTitle; ?></h1>
             <p>Hello! I am a Computer Science student passionate about learning and building projects. This portfolio showcases my achievements and works so far.</p>
             <img src="https://via.placeholder.com/500" class="img-fluid rounded shadow" alt="Portfolio Image">

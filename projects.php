@@ -15,7 +15,7 @@ $headerTitle = "Projects I’ve Built";
     <div class="row">
         <?php include('menu.php') ?>
 
-        <div class="col-sm-9 p-4">
+        <div class="col-md-9 p-4">
             <h1><?php echo $headerTitle; ?></h1>
             <ul>
                 <li>Photo Booth Organizer (Python)</li>
