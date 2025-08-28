@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "About Me";
+$pageTitle = "Skills";
 $headerTitle = "Who Am I?";
 ?>
 <!DOCTYPE html>
