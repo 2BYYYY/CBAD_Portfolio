@@ -1,28 +1,46 @@
 <?php
 $pageTitle = "Projects";
-$headerTitle = "Projects I’ve Built";
+$headerTitle = "Projects";
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <title><?php echo $pageTitle; ?> - Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container-fluid">
     <div class="row">
         <?php include('menu.php') ?>
-
-        <div class="col-md-9 p-4">
+        <div class="col-md-9 p-4 align-self-center">
             <h1><?php echo $headerTitle; ?></h1>
-            <ul>
-                <li>Photo Booth Organizer (Python)</li>
-                <li>Spotify Data ETL Pipeline (Airflow + Docker)</li>
-                <li>Volcano Analytics Chatbot (GCP + Web Scraping)</li>
-            </ul>
-            <img src="https://via.placeholder.com/450" class="img-fluid border rounded" alt="Projects Image">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <a href="https://github.com/ChocoCodes/solcha-bb" target="_blank">
+                        <img src="img/projects_img_b.png" class="projects-img img-thumbnail shadow-sm img-fluid" style="object-fit: cover;" alt="bantala">
+                    </a>
+                </div>
+                <div class="col-12 col-md-5">
+                    <a href="https://github.com/2BYYYY/AI_Spotify_Wrapped" target="_blank">
+                        <img src="img/projects_img_s.png" class="projects-img img-thumbnail shadow-sm img-fluid w-100 h-100" style="object-fit: cover;" alt="ai spotify thing">
+                    </a>
+                </div>
+                <div class="col-12 col-md-5 mt-3">
+                    <a href="https://github.com/2BYYYY/Twolingo" target="_blank">
+                        <img src="img/projects_img_t.png" class="projects-img img-thumbnail shadow-sm img-fluid" style="object-fit: cover;" alt="twolingo">
+                    </a>
+                </div>
+                <div class="col-12 col-md-1 d-none d-md-flex mt-3">
+                    <img src="img/INDEX_img2.jpg" class="img-thumbnail shadow-sm img-fluid" style="object-fit: cover;" alt="filler">
+                </div>
+                <div class="col-12 col-md-5 mt-3">
+                    <a href="https://github.com/jarede-dev/coverage-united" target="_blank">
+                        <img src="img/projects_img_cu.png" class="projects-img img-thumbnail shadow-sm img-fluid" style="object-fit: cover;" alt="coverage united">
+                    </a>
+                </div>
+                <div class="col-12 col-md-1 d-none d-md-flex mt-3">
+                    <img src="img/INDEX_img2.jpg" class="img-thumbnail shadow-sm img-fluid" style="object-fit: cover;" alt="filler">
+                </div>
+            </div>
         </div>
     </div>
 </div>

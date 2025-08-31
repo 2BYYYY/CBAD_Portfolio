@@ -1,3 +1,6 @@
+body{
+    font-family: "Afacad Flux";
+}
 #sidebar {
     min-height: 100vh;
     display: flex;
@@ -78,4 +81,19 @@
     border-radius: 50%;
     background: #000000;          
     color: #ffffff;
+}
+.a-techskills {
+  transition: transform 0.3s ease; 
+}
+
+.a-techskills:hover {
+  transform: scale(0.5); /* 50% */
+}
+
+.projects-img {
+  transition: transform 0.3s ease; 
+}
+
+.projects-img:hover {
+  transform: scale(0.9);
 }

@@ -1,30 +1,54 @@
 <?php
 $pageTitle = "Achievements";
-$headerTitle = "My Academic & Personal Achievements";
+$headerTitle = "Achievements";
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-    <title><?php echo $pageTitle; ?> - Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="container-fluid">
-    <div class="row">
-        <?php include('menu.php') ?>
-
-        <div class="col-md-9 p-4">
-            <h1><?php echo $headerTitle; ?></h1>
-            <ul>
-                <li>Dean’s Lister (2nd Year, 1st Semester)</li>
-                <li>Hackathon Participant (2025)</li>
-                <li>Personal Projects on AI and Data Engineering</li>
-            </ul>
-            <img src="https://via.placeholder.com/400" class="img-thumbnail shadow-sm" alt="Achievement Image">
+    <head>
+        <title><?php echo $pageTitle; ?> - Portfolio</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <?php include('menu.php') ?>
+                <div class="col-md-9 p-4 align-self-center">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/achevements_img_ai.png" class="img-thumbnail shadow-sm img-fluid w-100 h-100" style="object-fit: cover;" alt="ai lead">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/achevements_img_aiw.png" class="img-thumbnail shadow-sm img-fluid w-100 h-100" style="object-fit: cover;" alt="ai workshops">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/achevements_img_mod.png" class="img-thumbnail shadow-sm img-fluid w-100 h-100" style="object-fit: cover;" alt="Not the best developer but i accept the certificate">
+                        </div>
+                        <div class="row"> 
+                            <div class="col-md-6 mt-3">
+                                <a href="https://developers.google.com/profile/badges/community/solution-challenge/2025/participant" target="_blank"> 
+                                    <img src="img/achevements_img_sc.png" class="projects-img img-thumbnail shadow-sm img-fluid" style="object-fit: cover; height: 100%;" alt="solcha">
+                                </a>
+                            </div>
+                            <div class="col-md-6 d-flex flex-column mt-3">
+                                <div class="d-flex mb-3">
+                                    <div class="col-6 d-flex justify-content-center me-3">
+                                        <a href="https://www.datacamp.com/certificate/DEA0019834177775" target="_blank"> 
+                                            <img src="img/achevements_img_de.png" class="projects-img img-thumbnail shadow-sm img-fluid" style="object-fit: cover;" alt="data engineer">
+                                        </a>
+                                    </div>
+                                    <div class="col-6 d-flex justify-content-center">
+                                        <a href="https://www.datacamp.com/certificate/SQA0015847325156" target="_blank">
+                                            <img src="img/achevements_img_sa.png" class="projects-img img-thumbnail shadow-sm img-fluid" style="object-fit: cover;" alt="sql associate">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="mt-auto d-none d-md-flex">
+                                    <img src="img/index_img2.jpg" class="img-thumbnail shadow-sm w-100" style="object-fit: cover; height: 100px;" alt="filler">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-</body>
+    </body>
 </html>
